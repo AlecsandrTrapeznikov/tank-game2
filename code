@@ -1,0 +1,11 @@
+from pygame import*
+
+window = display.set_mode((1500, 800))
+
+fps = time.Clock()
+game = True
+
+while game:
+
+    fps.tick(60)
+    display.update()
